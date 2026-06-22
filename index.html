@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Algoritma Pemrograman</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="sidebar">
+<h2>📚 Algoritma</h2>
+<h3>Materi</h3>
+<a href="#nested">Nested Loop</a>
+<a href="#dowhile">Do While</a>
+<a href="#while">While</a>
+<a href="#for">For</a>
+<a href="#array">Array</a>
+<h3>Tugas PDF</h3>
+<a href="pdf/Tugas1.pdf" target="_blank">📄 Tugas 1</a>
+<a href="pdf/Tugas2.pdf" target="_blank">📄 Tugas 2</a>
+<a href="pdf/Tugas3.pdf" target="_blank">📄 Tugas 3</a>
+<a href="pdf/Tugas4.pdf" target="_blank">📄 Tugas 4</a>
+<a href="pdf/Tugas5.pdf" target="_blank">📄 Tugas 5</a>
+</div>
+
+<div class="content">
+<div class="card">
+<h1>Zahra Anindya Calista</h1>
+<p>NIM : 250403010023</p>
+<p>Kelas : A</p>
+</div>
+
+<div class="card" id="nested">
+<h2>1. Nested Loop</h2>
+<p>Nested Loop adalah perulangan di dalam perulangan lainnya.</p>
+<pre>for i in range(3):
+    for j in range(3):
+        print("*", end=" ")
+    print()</pre>
+<b>Output:</b>
+<pre>* * *
+* * *
+* * *</pre>
+</div>
+
+<div class="card" id="dowhile">
+<h2>2. Do While</h2>
+<p>Perulangan yang dijalankan minimal satu kali sebelum kondisi diperiksa.</p>
+<pre>angka = 1
+while True:
+    print(angka)
+    angka += 1
+    if angka > 5:
+        break</pre>
+<b>Output:</b>
+<pre>1
+2
+3
+4
+5</pre>
+</div>
+
+<div class="card" id="while">
+<h2>3. While</h2>
+<p>Perulangan yang berjalan selama kondisi bernilai benar.</p>
+<pre>angka = 1
+while angka <= 5:
+    print(angka)
+    angka += 1</pre>
+<b>Output:</b>
+<pre>1
+2
+3
+4
+5</pre>
+</div>
+
+<div class="card" id="for">
+<h2>4. Struktur For</h2>
+<p>Perulangan dengan jumlah iterasi tertentu.</p>
+<pre>for i in range(1,6):
+    print(i)</pre>
+<b>Output:</b>
+<pre>1
+2
+3
+4
+5</pre>
+</div>
+
+<div class="card" id="array">
+<h2>5. Array</h2>
+
+<h3>Pengertian Array</h3>
+<p>Array adalah struktur data yang digunakan untuk menyimpan sekumpulan data yang memiliki tipe data yang sama dalam satu variabel. Setiap data memiliki indeks sehingga dapat diakses dengan mudah.</p>
+
+<h3>Jenis-Jenis Array</h3>
+<h4>1. Array Satu Dimensi</h4>
+<p>Array yang hanya memiliki satu indeks.</p>
+<pre>nilai = [80, 85, 90, 75, 88]</pre>
+
+<h4>2. Array Dua Dimensi</h4>
+<p>Array yang memiliki baris dan kolom seperti tabel.</p>
+<pre>
+matriks = [
+ [1,2,3],
+ [4,5,6]
+]
+</pre>
+
+<h4>3. Array Multidimensi</h4>
+<p>Array yang memiliki lebih dari dua dimensi.</p>
+
+<h3>Struktur Dasar Array</h3>
+<ul>
+<li>Nama Array</li>
+<li>Tipe Data</li>
+<li>Indeks</li>
+<li>Elemen Data</li>
+</ul>
+
+<pre>angka = [10,20,30,40,50]</pre>
+
+<h3>Contoh Program Array</h3>
+<pre>
+nilai = [80,85,90,75,88]
+
+for i in nilai:
+    print(i)
+</pre>
+
+<b>Output:</b>
+<pre>
+80
+85
+90
+75
+88
+</pre>
+</div>
+
+</div>
+</body>
+</html>

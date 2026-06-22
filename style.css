@@ -1,0 +1,8 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family:Segoe UI}
+body{background:linear-gradient(135deg,#ffe3ef,#fff8fb)}
+.sidebar{position:fixed;width:260px;height:100vh;background:#ff8fc7;padding:20px}
+.sidebar a{display:block;color:white;text-decoration:none;padding:10px;margin:5px 0}
+.sidebar h2,.sidebar h3{color:white}
+.content{margin-left:280px;padding:30px}
+.card{background:white;padding:25px;border-radius:18px;margin-bottom:20px;box-shadow:0 4px 12px rgba(0,0,0,.1)}
+pre{background:#f4f4f4;padding:10px;border-radius:10px;margin:10px 0}
